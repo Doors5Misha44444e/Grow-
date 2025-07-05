@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body {
+    font-family: Secular One;
+    padding: 0px;
+    margin: 0px;
+   background-color: #00FF44;
+
+}
+
+h1 {
+    color: chartreuse;
+    font-size: 48px;
+
+}
+
+.garden {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.er {
+
+    width: px;
+    height: 208px;
+}
+header {
+    background-color: #2B00FF;
+    padding: 20px;
+}
+
+
+.nav-link {
+
+    font-size: 32px;
+    color: #4bb147;
+    display: flex;
+    text-decoration: none;
+    background: linear-gradient(90deg, #fbff00 43.27%, #c00 71.63%);
+
+}
+
+
+.mmmmmn {
+    display: flex;
+    justify-content: space-between;
+margin: 20px auto;
+max-width: 900px;
+
+}
+
+main {
+ padding: 20px;
+    max-width: 900px;
+margin:0 auto;
+
+
+}
+main img{
+height: 325px;
+
+}
+
+h2 {
+    color: #0400FF;
+    text-align: center;
+    font-size: 48px;
+}
+
+.cer {
+    color: #0048FF;
+    font-size: 40px;
+
+
+}
+
+.errr {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mn {}
+
+footer {
+    background: linear-gradient(180deg, #6f00ff 17.31%, #3c872b 76.7%);
+    ;
+padding: 20px;
+text-align: center;
+
+}
+
+h3 {
+
+    font-size: 40px;
+    text-align: center;
+    color: #fbff00;
+}
+
+.end {
+    text-decoration: none;
+  
+    font-size: 32px;
+    border-radius: 51px;
+padding: 10px;
+    background: linear-gradient(90deg, #000 13.46%, #f00 26.92%);
+}
+.end:hover {
+    text-decoration: none;
+  color: #3c872b;
+    font-size: 32px;
+    border-radius: 51px;
+padding: 10px;
+    background: linear-gradient(90deg, #000 13.46%, #f00 26.92%);
+}
+.end:focus{
+    text-decoration: none;
+  color: aqua;
+    font-size: 32px;
+    border-radius: 51px;
+padding: 10px;
+    background: linear-gradient(90deg, #000 13.46%, #f00 26.92%);
+}
+.nav-link:hover{
+ font-size: 32px;
+    color: #0015ff;
+    display: flex;
+    text-decoration: none;
+    background: linear-gradient(90deg, #fbff00 43.27%, #c00 71.63%);
+
+}
+.nav-link:focus {
+
+    font-size: 32px;
+    color: #0080ff;
+    display: flex;
+    text-decoration: none;
+    background: linear-gradient(90deg, #fbff00 43.27%, #c00 71.63%);
+
+}
