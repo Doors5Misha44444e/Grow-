@@ -1,6 +1,6 @@
-// ===== GROW A GARDEN WIKI - JavaScript =====
 
-// Scroll to top function
+
+
 function scrollToTop() {
   window.scrollTo({
     top: 0,
@@ -8,7 +8,6 @@ function scrollToTop() {
   });
 }
 
-// Show/hide scroll to top button
 window.addEventListener('scroll', function() {
   const scrollBtn = document.querySelector('.scroll-top');
   if (scrollBtn) {
@@ -20,7 +19,7 @@ window.addEventListener('scroll', function() {
   }
 });
 
-// Animate elements on scroll
+
 function animateOnScroll() {
   const elements = document.querySelectorAll('.animate-on-scroll');
   
@@ -34,18 +33,18 @@ function animateOnScroll() {
   });
 }
 
-// Run animation check on scroll and load
+
 window.addEventListener('scroll', animateOnScroll);
 window.addEventListener('load', animateOnScroll);
 
-// Add sparkle effect on nav links hover
+
 document.querySelectorAll('.nav-link').forEach(link => {
   link.addEventListener('mouseenter', function(e) {
     createSparkles(e.target);
   });
 });
 
-// Create sparkle particles
+
 function createSparkles(element) {
   for (let i = 0; i < 5; i++) {
     const sparkle = document.createElement('span');
@@ -61,7 +60,7 @@ function createSparkles(element) {
   }
 }
 
-// Add hover sound effect (visual feedback)
+
 document.querySelectorAll('.plant-card, .info-card, .video-card, .seed-category').forEach(card => {
   card.addEventListener('mouseenter', function() {
     this.style.transform = 'translateY(-10px) scale(1.02)';
@@ -72,7 +71,7 @@ document.querySelectorAll('.plant-card, .info-card, .video-card, .seed-category'
   });
 });
 
-// Parallax effect for header
+
 window.addEventListener('scroll', function() {
   const header = document.querySelector('header');
   if (header) {
@@ -81,7 +80,7 @@ window.addEventListener('scroll', function() {
   }
 });
 
-// Add typing effect to h2 elements (optional)
+
 function typeWriter(element, text, speed = 50) {
   let i = 0;
   element.innerHTML = '';
@@ -97,7 +96,7 @@ function typeWriter(element, text, speed = 50) {
   type();
 }
 
-// Random floating emojis in footer
+
 function createFloatingEmoji() {
   const footer = document.querySelector('footer');
   if (!footer) return;
@@ -121,7 +120,7 @@ function createFloatingEmoji() {
   }, 4000);
 }
 
-// Add float up animation
+
 const style = document.createElement('style');
 style.textContent = `
   @keyframes floatUp {
@@ -169,7 +168,7 @@ document.querySelectorAll('.end, .nav-link').forEach(button => {
   });
 });
 
-// Add ripple animation
+
 const rippleStyle = document.createElement('style');
 rippleStyle.textContent = `
   @keyframes rippleEffect {
@@ -181,11 +180,10 @@ rippleStyle.textContent = `
 `;
 document.head.appendChild(rippleStyle);
 
-// Console welcome message
 console.log('%c🌱 Grow a Garden Wiki 🌱', 'font-size: 24px; color: #00FF44; font-weight: bold;');
 console.log('%cЗробив Михайло Кривенко', 'font-size: 14px; color: #6f00ff;');
 
-// Easter egg: Konami code
+
 let konamiCode = [];
 const konamiSequence = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
 
@@ -209,7 +207,7 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
-// Image lazy loading with fade effect
+
 document.querySelectorAll('main img').forEach(img => {
   img.style.opacity = '0';
   img.style.transition = 'opacity 0.5s ease';
@@ -223,7 +221,7 @@ document.querySelectorAll('main img').forEach(img => {
   }
 });
 
-// Add cursor trail effect (subtle)
+
 let cursorTrail = [];
 const maxTrailLength = 10;
 
